@@ -1,18 +1,8 @@
 console.log("hello");
 
-document.getElementById('title').innerHTML = "Hello World";
+console.log('world');
 
-let sum = 150+40;
-console.log(sum);
-
-if (sum > 100) {
-  console.log('Expensive');
+function funcName() {
+  console.log('My First Function');
 }
-else {
-  console.log('Cheap');
-}
-
-function sayHello(name) {
-  console.log(`Hello ${name}`);
-}
-sayHello('Tanjir');
+funcName();

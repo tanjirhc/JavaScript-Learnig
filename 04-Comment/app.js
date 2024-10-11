@@ -7,6 +7,8 @@ firstName = 'Hasan'; //Changing firstName
 console.log(firstName);
 
 console.log(age + 50);
+/* Multi line
+comment */
 
 function funcName() {
   console.log('My First Function');

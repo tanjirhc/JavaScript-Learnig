@@ -23,3 +23,28 @@ console.log(country);
 
 
 console.log(`${fruits} is my fav, ${fruits} I like to eat`);
+
+/* 
+* let Variable
+! can't be redeclared
+! let is block Scoped
+! let is not hosted
+*/
+
+{
+ let b = 10; 
+}
+
+
+b = 11;
+console.log(b);
+// console.log(people);
+// let people = 'someone';
+
+/* const Variable
+! can't be redeclared
+! let is block Scoped
+! let is not hosted
+*/
+
+const c = 10'

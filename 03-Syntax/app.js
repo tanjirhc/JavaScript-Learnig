@@ -5,7 +5,7 @@ firstName = 'Hasan';
 
 console.log(firstName);
 
-console.log('world');
+console.log(age + 50);
 
 function funcName() {
   console.log('My First Function');

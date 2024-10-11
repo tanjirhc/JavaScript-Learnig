@@ -1,7 +1,8 @@
+// My first Comment -single line comment
 let firstName = 'Tanjir';
 let age = 30;
 
-firstName = 'Hasan';
+firstName = 'Hasan'; //Changing firstName
 
 console.log(firstName);
 

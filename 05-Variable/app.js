@@ -43,8 +43,15 @@ console.log(b);
 
 /* const Variable
 ! can't be redeclared
+! can't be re-assigned
 ! let is block Scoped
 ! let is not hosted
 */
 
-const c = 10'
+const c = 10;
+console.log(c);
+{
+  const d = 50
+  console.log(c);
+  console.log(d);
+}

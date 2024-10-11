@@ -1,6 +1,6 @@
 /* 
 ! JavaScript Variable
  */
-let fruits = 'mango';
+let fruits = 'Orange';
 
 console.log(`${fruits} is my fav, ${fruits} I like to eat`);

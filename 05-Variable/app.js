@@ -55,3 +55,13 @@ console.log(c);
   console.log(c);
   console.log(d);
 }
+
+const person = {
+  firstName: 'Tanjir', 
+  age: 30,
+};
+
+person.country = 'Bangladesh';
+person.age = 32;
+
+console.log(person);

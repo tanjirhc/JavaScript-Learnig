@@ -1,7 +1,9 @@
 let firstName = 'Tanjir';
 let age = 30;
 
-console.log("hello");
+firstName = 'Hasan';
+
+console.log(firstName);
 
 console.log('world');
 

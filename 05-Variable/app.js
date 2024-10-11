@@ -6,6 +6,8 @@
 * Variable
 */
 var a = 10;
+var a =20;
+a = 'Bangladesh';
 console.log(a);
 
 let firstName;

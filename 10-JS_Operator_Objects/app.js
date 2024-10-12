@@ -52,3 +52,15 @@ const objFinal = { ...obj1, ...obj2, ...obj3} //spread operator ...
 console.log(objFinal);
 
 console.log(mobileModel.battery.mah);
+
+
+function Person(first, last) {
+  this.firstName = first,
+  this.lastName = last;
+}
+
+const person1 = new Person('Tanjir', 'Hasan');
+const person2 = new Person('Ali', 'Shuvo');
+
+console.log(person1);
+console.log(person2);

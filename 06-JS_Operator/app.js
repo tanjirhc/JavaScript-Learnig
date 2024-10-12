@@ -56,3 +56,22 @@ console.log(p<=q);
 // && AND Operator
 // || OR Operator
 // !(p<q) NOT Operator
+
+/*
+* Assignment Operator
+*/
+
+let j = 10;
+let k = 20;
+j = j+k;
+j +=k;
+j = j-k;
+j -= k;
+
+j = j*k;
+j *= k;
+
+j = j/k;
+j /= k;
+
+console.log(j);

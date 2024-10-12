@@ -14,11 +14,14 @@ language[6] = 'vue.js';
 language[7] = 'Laravel';
 
 //last item
-console.log(language[language.length-1]);
+//console.log(language[language.length-1]);
 
-console.log(language);
+console.log(language.at(5));
+
+//console.log(language);
 console.log(language.toString());
-console.log(language.length);
+console.log(language.join('$'));
+//console.log(language.length);
 //console.log(language[2]);
 //console.log(language2);
 

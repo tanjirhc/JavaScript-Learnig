@@ -24,5 +24,5 @@ console.log(finalName);
 
 console.log(fullName);
 console.log(typeof calculation);
-console.log(fruits);
+console.log(fruits[2]);
 console.log(typeof fruits);

@@ -75,3 +75,9 @@ j = j/k;
 j /= k;
 
 console.log(j);
+
+/*
+* Conditional (Ternary) Operator
+*/
+let t = a < b ? `true` : `false`;
+console.log(t);

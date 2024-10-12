@@ -25,11 +25,19 @@ else {
 
 let x =10;
 x = x+1;
-x++;
+x++;  //Increment
 console.log(x);
 
 let y = 20;
-y++;
+y--;    //Decrement
 
 console.log(y);
+console.log(`Decrement ${y}`);
 
+/*
+* Comparison Operator
+*/
+let p = '5';
+q = 5;
+console.log(p==q);  // == losely typed
+console.log(p===q);  //strongly typed

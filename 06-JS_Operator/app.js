@@ -37,7 +37,22 @@ console.log(`Decrement ${y}`);
 /*
 * Comparison Operator
 */
-let p = '5';
-q = 5;
+/*
+let p = 5;
+q = 10;
 console.log(p==q);  // == losely typed
 console.log(p===q);  //strongly typed
+console.log(p!==q);
+console.log(p>q);
+console.log(p<q);
+console.log(p>=q);
+console.log(p<=q);
+*/
+
+/*
+* Logical Operator
+*/
+
+// && AND Operator
+// || OR Operator
+// !(p<q) NOT Operator

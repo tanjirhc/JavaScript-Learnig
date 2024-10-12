@@ -26,6 +26,10 @@ document.getElementById('btn').addEventListener('click', isSubscribed)
 // })('Hello');
 
 let maths = function(x, y){
-  return x * y;
+  console.log('Testing if I am working or not');
+ return x * y;
 };
+ 
+  
 console.log(maths(3, 4));
+console.log(maths(4, 4));

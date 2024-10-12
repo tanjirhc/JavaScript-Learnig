@@ -38,6 +38,17 @@ function newFunc() {
   let firstName = 'Tanjir';
   console.log(firstName);
 }
-
-
 newFunc();
+
+function newFuncs() {
+  let firstName = 'Tanjir';
+  console.log(firstName);
+}
+newFuncs();
+
+let numbers = [4,,5,, 6, 7];
+let sqNumbers = numbers.map(function(number) {
+  return number * number;
+})
+
+console.log(sqNumbers);

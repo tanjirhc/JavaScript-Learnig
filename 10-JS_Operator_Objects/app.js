@@ -13,7 +13,10 @@ const mobileModel = {
   [newSym] : 'MyKey1',
   brandModel: function() {
     return `Mobile Brand is ${this.brand} and model is ${this.model}`
-  }
+  },
+  battery: {
+    mah: 5000,
+  },
 };
 
 
@@ -45,5 +48,7 @@ const obj3 = {
 //const objFinal = Object.assign(target, source); //memory efficient
 //const objFinal = Object.assign({}, obj1, obj2, obj3);
 
-const objFinal = { ...obj1, ...obj2} //spread operator ...
+const objFinal = { ...obj1, ...obj2, ...obj3} //spread operator ...
 console.log(objFinal);
+
+console.log(mobileModel.battery.mah);

@@ -13,11 +13,12 @@ let calculation = age + age2 + firstName + age + age2;
 let numberBg = 9999999999999999n;
 let numberBg2 = 99999999999999999n;
 
+let ifAdult = true;
 
 console.log(numberBg*numberBg2);
 console.log(finalName);
 
 console.log(fullName);
 console.log(typeof calculation);
-console.log(calculation);
-console.log(typeof numberBg);
+console.log(ifAdult);
+console.log(typeof ifAdult);

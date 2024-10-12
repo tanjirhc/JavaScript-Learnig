@@ -17,7 +17,8 @@ const mobileModel = {
 mobileModel.model = 's25 Ultra';
 Object.freeze(mobileModel);
 mobileModel.model = 's26 Ultra';
-console.log(mobileModel.model);
+
+console.log(mobileModel.hasOwnProperty('camera'));
 
 console.log(mobileModel['selfie camera']);
 console.log(mobileModel[newSym]);

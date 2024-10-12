@@ -8,5 +8,6 @@ language[4] = 'Tailwind CSS';
 language[5] = 'React.js';
 
 console.log(language);
+console.log(language.toString());
 //console.log(language[2]);
 //console.log(language2);

@@ -60,6 +60,7 @@ function Person(first, last) {
 }
 
 const person1 = new Person('Tanjir', 'Hasan');
+person1.age = 18;
 const person2 = new Person('Ali', 'Shuvo');
 
 console.log(person1);

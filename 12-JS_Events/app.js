@@ -17,3 +17,7 @@ function like()  {
 function keyPress() {
   document.getElementById("text").innerHTML = 'Key Pressed :)';
 }
+
+function onLoad() {
+  document.getElementById("text").innerHTML = 'Website Loaded Properly';
+}

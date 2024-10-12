@@ -1,82 +1,13 @@
 /* 
-! JavaScript Functions
+! JavaScript Objects
  */
-// --- code driven
-function myFunction(fullName, age, dateOfBirth = 1989) {
-  console.log('Hello ' + fullName +' I am '+ age + ' My date of Birth is '+dateOfBirth);
-}
-myFunction('Tanjir', 32, 1987);
-myFunction('Hasan', 35, true);
-
-// event driven
-function isSubscribed() {
-  console.log('Subscribed');
-}
-
-document.getElementById('btn').addEventListener('click', isSubscribed)
-
-//self driven
-
-// (function () {
-//   console.log('I am Self-Invoking Function');
-// })();
-
-// (function (message) {
-//   console.log('I am self-Invokeing Function', message);
-// })('Hello');
-
-let maths = function(x, y){
-  console.log('Testing if I am working or not');
- return x * y;
+const mobileModel = {
+  //key: value
+  brand: 'Samsung',
+  model: 's24 Ultra',
+  processor: 'Snapdragon Gen 3',
+  camera: ['200MP', '12MP', '12MP'],
+  hasZoomCamera: true,
 };
- 
-  
-console.log(maths(3, 4));
-console.log(maths(4, 4));
 
-function newFunc() {
-  let firstName = 'Tanjir';
-  console.log(firstName);
-}
-newFunc();
-
-function newFuncs() {
-  let firstName = 'Tanjir';
-  console.log(firstName);
-}
-newFuncs();
-
-let numbers = [4,,5,, 6, 7];
-let sqNumbers = numbers.map(function(number) {
-  return number * number;
-})
-
-console.log(sqNumbers);
-//arrow function
-
-/*
-let add = function(x,y) {
-  return x + y;
-};
-console.log(add(5, 6));
-*/
-/*
-! arrow function
-*/
-
-let add = (x,y) => x + y;
-
-console.log(add(5, 6));
-
-/*
-! nested function
-*/
-
-function greet(firstName) {
-  function sayHello() {
-    alert('Hello ' + firstName);
-  }
-  return sayHello();
-}
-
-greet('Hasan');
+console.log(mobileModel.brand);

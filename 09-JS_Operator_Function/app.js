@@ -1,7 +1,8 @@
 /* 
 ! JavaScript Functions
  */
-function myFunction(){
-  console.log('Hello Function');
+function myFunction(fullName) {
+  console.log('Hello ' + fullName);
 }
-myFunction();
+myFunction('Tanjir');
+myFunction('Hasan');

@@ -1,6 +1,7 @@
 /* 
 ! JavaScript Objects
  */
+const newSym = Symbol('key1');
 const mobileModel = {
   //key: value
   brand: 'Samsung',
@@ -8,6 +9,11 @@ const mobileModel = {
   processor: 'Snapdragon Gen 3',
   camera: ['200MP', '12MP', '12MP'],
   hasZoomCamera: true,
+  'selfie camera': 12,
+  [newSym] : 'MyKey1',
 };
 
-console.log(mobileModel.brand);
+console.log(mobileModel);
+
+console.log(mobileModel['selfie camera']);
+console.log(mobileModel[newSym]);

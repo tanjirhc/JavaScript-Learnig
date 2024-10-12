@@ -4,4 +4,3 @@
 function subscribe() {
   document.getElementById('text').innerHTML = 'Subscribed';
 }
-subscribe();

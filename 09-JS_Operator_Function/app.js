@@ -67,3 +67,16 @@ console.log(add(5, 6));
 let add = (x,y) => x + y;
 
 console.log(add(5, 6));
+
+/*
+! nested function
+*/
+
+function greet(firstName) {
+  function sayHello() {
+    alert('Hello ' + firstName);
+  }
+  return sayHello();
+}
+
+greet('Tanjir');

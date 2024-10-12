@@ -52,3 +52,18 @@ let sqNumbers = numbers.map(function(number) {
 })
 
 console.log(sqNumbers);
+//arrow function
+
+/*
+let add = function(x,y) {
+  return x + y;
+};
+console.log(add(5, 6));
+*/
+/*
+! arrow function
+*/
+
+let add = (x,y) => x + y;
+
+console.log(add(5, 6));

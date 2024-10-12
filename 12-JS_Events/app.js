@@ -38,8 +38,16 @@ function onScroll() {
 //   document.getElementById('btn').innerHTML = 'Subscribed';
 // }
 
-document.getElementById('btn').addEventListener('click', function (e) {
-  document.getElementById('btn').innerHTML = 'Subscribed';
+document.getElementById('ul').addEventListener('click', function (e) {
+  // document.getElementById('ul').innerHTML = 'Subscribed';
+  console.log('UL Clicked');
+},
+true
+);
+
+document.getElementById('li').addEventListener('click', function (e) {
+  // document.getElementById('ul').innerHTML = 'Subscribed';
+  console.log('LI Clicked');
 },
 true
 );

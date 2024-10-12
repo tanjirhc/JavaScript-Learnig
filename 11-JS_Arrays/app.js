@@ -15,10 +15,18 @@ language[7] = 'Laravel';
 
 //last item
 //console.log(language[language.length-1]);
+//Delete or remove last item
+language.pop();
+//ADD Last item
+language.push('Angular.js');
+//add first
+language.unshift('Basic Computing');
+//Delete first item
+language.shift();
 
 console.log(language.at(5));
 
-//console.log(language);
+console.log(language);
 console.log(language.toString());
 console.log(language.join('$'));
 //console.log(language.length);

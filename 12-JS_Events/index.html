@@ -6,6 +6,7 @@
 
   <title>JavaScipt Events</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,8 +14,19 @@
   <button onmouseout="subscribe()" id="btn">Events</button>
   <h2 id="text"></h2>
   <!-- <button id="like" onclick="like()"><i class="fa-regular fa-thumbs-up"></i> Like</button> -->
+
+  <form action="" id="form" class="form-login text-center">
+    <label for="" class="form-control mb-3">Name</label>
+    <input type="text" placeholder="Enter Your Name" class="form-control mb-3">
+    <label class="form-control mb-3" for="">Email</label>
+    <input type="email" placeholder="Enter Your email" class="form-control mb-3">
+    <label for="" class="form-control mb-3">Message</label>
+    <textarea name="" class="form-control mb-3" rows="10" id=""></textarea>
+    <input type="submit" class="btn btn-primary w-100" value="Send Message">
+  </form>
   
   
   <script src="app.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

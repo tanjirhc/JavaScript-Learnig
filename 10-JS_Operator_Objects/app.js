@@ -11,7 +11,12 @@ const mobileModel = {
   hasZoomCamera: true,
   'selfie camera': 12,
   [newSym] : 'MyKey1',
+  brandModel: function() {
+    return `Mobile Brand is ${this.brand} and model is ${this.model}`
+  }
 };
+
+
 
 
 mobileModel.model = 's25 Ultra';
@@ -19,6 +24,4 @@ Object.freeze(mobileModel);
 mobileModel.model = 's26 Ultra';
 
 console.log(mobileModel.hasOwnProperty('camera'));
-
-console.log(mobileModel['selfie camera']);
-console.log(mobileModel[newSym]);
+console.log(mobileModel.brandModel());

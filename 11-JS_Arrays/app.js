@@ -46,3 +46,10 @@ console.log(person[2]);
 const num = new Array(20, 21);
 
 console.log(num);
+
+
+const x = [1, 2, 3, 4];
+const y = [1, 2, 3, 4];
+const p = [2, 3, 4]
+const z = x.concat(y, p);
+console.log(z);

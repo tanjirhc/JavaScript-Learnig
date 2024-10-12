@@ -18,6 +18,15 @@ function keyPress() {
   document.getElementById("text").innerHTML = 'Key Pressed :)';
 }
 
-function onLoad() {
-  document.getElementById("text").innerHTML = 'Website Loaded Properly';
+
+
+// function onLoad() {
+//   alert('Testing JavaScript Onload');
+//   document.getElementById("text").innerHTML = 'Website Loaded Properly';
+// }
+
+function windowResize() {
+  document.getElementById("textarea").style.height = '200px';
+  document.getElementById("form").style.fontFamily = 'Courier New';
 }
+

@@ -33,3 +33,11 @@ let maths = function(x, y){
   
 console.log(maths(3, 4));
 console.log(maths(4, 4));
+
+function newFunc() {
+  let firstName = 'Tanjir';
+  console.log(firstName);
+}
+
+
+newFunc();

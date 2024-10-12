@@ -42,6 +42,8 @@ const obj3 = {
   r: 3
 };
 
-const objFinal = Object.assign(obj1, obj2, obj3);
+//const objFinal = Object.assign(target, source); //memory efficient
+const objFinal = Object.assign({}, obj1, obj2, obj3);
+
 //const objFinal = {obj1, obj2}
 console.log(objFinal);

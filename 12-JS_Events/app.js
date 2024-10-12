@@ -13,3 +13,7 @@ function like()  {
   document.getElementById('like').innerHTML = '<i class="fa-solid fa-thumbs-up"></i> Liked';
   document.getElementById('like').style.backgroundColor = '#27ae60';
 }
+
+function keyPress() {
+  document.getElementById("text").innerHTML = 'Key Pressed :)';
+}

@@ -53,3 +53,11 @@ const y = [1, 2, 3, 4];
 const p = [2, 3, 4]
 const z = x.concat(y, p);
 console.log(z);
+
+const a = [
+  [1, 2, 3], 
+  [4, 5, 6], 
+  [2, 4, 6]
+];
+console.log(a);
+console.log(a.flat());

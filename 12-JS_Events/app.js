@@ -30,3 +30,14 @@ function windowResize() {
   document.getElementById("form").style.fontFamily = 'Courier New';
 }
 
+function onScroll() {
+  document.getElementById("text").innerHTML = 'Scrolling ';
+}
+
+// document.getElementById('btn').onclick = function () {
+//   document.getElementById('btn').innerHTML = 'Subscribed';
+// }
+
+document.getElementById('btn').addEventListener('click', function () {
+  document.getElementById('btn').innerHTML = 'Subscribed';
+})

@@ -17,11 +17,31 @@ const mobileModel = {
 };
 
 
-
-
 mobileModel.model = 's25 Ultra';
 Object.freeze(mobileModel);
 mobileModel.model = 's26 Ultra';
 
 console.log(mobileModel.hasOwnProperty('camera'));
 console.log(mobileModel.brandModel());
+
+const obj1 = {
+  a: 1,
+  b: 2,
+  c: 3
+};
+
+const obj2 = {
+  x: 1,
+  y: 2,
+  z: 3
+};
+
+const obj3 = {
+  p: 1,
+  q: 2,
+  r: 3
+};
+
+const objFinal = Object.assign(obj1, obj2, obj3);
+//const objFinal = {obj1, obj2}
+console.log(objFinal);

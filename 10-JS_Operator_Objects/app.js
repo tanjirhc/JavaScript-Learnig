@@ -13,7 +13,11 @@ const mobileModel = {
   [newSym] : 'MyKey1',
 };
 
-console.log(mobileModel);
+
+mobileModel.model = 's25 Ultra';
+Object.freeze(mobileModel);
+mobileModel.model = 's26 Ultra';
+console.log(mobileModel.model);
 
 console.log(mobileModel['selfie camera']);
 console.log(mobileModel[newSym]);

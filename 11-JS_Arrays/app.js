@@ -63,4 +63,5 @@ const a = [
 // console.log(a.flat());
 
 language.splice(2, 0, 'Info', 'Info2');
+language.splice(0, 2);
 console.log(language);

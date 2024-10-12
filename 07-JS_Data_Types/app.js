@@ -17,10 +17,12 @@ let ifAdult = true;
 
 let someInfo = null;
 
+let fruits = ['Apple', 'Lemon', 'Peer', 'Oranges'];
+
 console.log(numberBg*numberBg2);
 console.log(finalName);
 
 console.log(fullName);
 console.log(typeof calculation);
-console.log(someInfo);
-console.log(typeof someInfo);
+console.log(fruits);
+console.log(typeof fruits);

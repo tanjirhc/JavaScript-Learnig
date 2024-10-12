@@ -15,10 +15,12 @@ let numberBg2 = 99999999999999999n;
 
 let ifAdult = true;
 
+let someInfo = null;
+
 console.log(numberBg*numberBg2);
 console.log(finalName);
 
 console.log(fullName);
 console.log(typeof calculation);
-console.log(ifAdult);
-console.log(typeof ifAdult);
+console.log(someInfo);
+console.log(typeof someInfo);

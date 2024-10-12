@@ -17,12 +17,18 @@ let ifAdult = true;
 
 let someInfo = null;
 
-let fruits = ['Apple', 'Lemon', 'Peer', 'Oranges'];
+let fruits = ['Apple', 'Lemon', 'Peer', 'Oranges', 32];
+
+let student = {
+  fullName: 'Tanjir Hasan',
+  age: 33,
+  dateOfBirth: 1989,
+};
 
 console.log(numberBg*numberBg2);
 console.log(finalName);
 
 console.log(fullName);
 console.log(typeof calculation);
-console.log(fruits[2]);
-console.log(typeof fruits);
+console.log(student);
+console.log(typeof student);

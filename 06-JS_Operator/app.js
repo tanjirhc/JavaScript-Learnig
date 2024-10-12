@@ -80,7 +80,7 @@ console.log(j);
 * Conditional (Ternary) Operator
 */
 let t = a < b ? `true` : `false`;
-let t = a < b ? true : false;
+let g = a < b ? true : false;
 console.log(t);
 
 let firstName = 'Tanjir';

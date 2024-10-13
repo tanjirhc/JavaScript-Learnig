@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+}
+button{
+  background: red;
+  padding:20px 45px ;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover{
+  background: #262626;
+}
+.form-login{
+  background:rgba(230, 126, 34,.80);
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  margin: auto;
+  max-width: 450px;
+  width: 100%;
+ 
+}
+ul{
+  text-align: left;
+}

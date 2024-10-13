@@ -1,6 +1,6 @@
 /* 
 ! JavaScript Math
  */
-let age = 30;
+let num = 30.4564566;
 
-console.log(age);
+console.log(Math.round(num));

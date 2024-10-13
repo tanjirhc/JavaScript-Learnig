@@ -1,18 +1,7 @@
 /* 
-! JavaScript Math
+! JavaScript Number
  */
-let num = 30.9564566;
-let num2 = 2;
+const x = 5;
+const y = 5.5;
 
-// console.log(Math.round(num));
-// console.log(Math.ceil(num));
-// console.log(Math.floor(num));
-
-//square value
-//console.log(Math.pow(2,2));
-
-//Root Value
-//console.log(Math.sqrt(64));
-
-console.log(Math.abs(-5));
-console.log(Math.PI);
+console.log(x);

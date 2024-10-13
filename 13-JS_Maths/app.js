@@ -9,4 +9,7 @@ let num2 = 2;
 // console.log(Math.floor(num));
 
 //square value
-console.log(Math.pow(2,2));
+//console.log(Math.pow(2,2));
+
+//Root Value
+console.log(Math.sqrt(64));
